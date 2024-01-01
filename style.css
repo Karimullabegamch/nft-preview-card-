@@ -1,0 +1,98 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container
+{
+height: 530px;
+margin:0 auto;
+width: 360px;
+background-color:hsl(216, 50%, 16%);
+padding: 20px;
+border-radius: 8px;
+margin-top: 100px;
+
+}
+.top img
+{
+   border-radius: 10px;
+   padding-bottom: 15px;
+   
+}
+h4
+{
+    padding-bottom: 15px;
+    font-size: 25px;
+    color:  hsl(0, 0%, 100%);
+}
+.firstp
+{
+    padding-bottom: 18px;
+    line-height: 28px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.clck
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 18px;
+
+}
+
+.footer img
+{
+  height: 40px;
+  
+
+  border: 1px solid white;
+  border-radius: 40px;
+  
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 18px;
+    gap: 9px;
+
+}
+.footer p
+{
+    align-self: center;
+    color:hsl(215, 51%, 70%);
+}
+.e 
+{
+    display:flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    
+}
+.e p
+{
+    padding-left: 5px;
+}
+.c p
+{
+    padding-left: 5px;
+}
+.c
+{
+    display:flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    
+}
+.footer span
+{
+    color:hsl(0, 0%, 100%) ;
+}
